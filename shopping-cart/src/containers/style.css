@@ -1,0 +1,13 @@
+.cart-header {
+    background-color: lightblue;
+    padding: 15px 10px;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+.cart-body {
+    border-width: 0 1px 1px 1px;
+    border-color: lightblue;
+    border-style: solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

@@ -1,0 +1,52 @@
+body{
+    padding: 20px;
+}
+.todolist-header{
+    text-align: center;
+
+}
+.todoItem{
+    height: 30px;
+    line-height: 2em;
+    font-size: 15px;
+    margin:3px 2px;
+    font-weight: 400;
+    background-color: #dddddd;
+    text-indent: 10px;
+    position:relative;
+    list-style: none;
+    border-radius: 5px;
+}
+.todoItem .toggleBox{
+    width:30px;
+    height:20px;
+}
+.todoItem:hover .destroyButton{
+    opacity: 1;
+    transition: opacity 100ms linear;
+    display: block;
+}
+.destroyButton {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    background-color: lightblue;
+    text-indent: 0;
+    line-height: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 100ms linear;
+}
+.destroyButton:hover{
+    font-size: 20px;
+}
+.ant-input {
+    width: 200px;
+    margin: 0 8px 8px 0;
+}
